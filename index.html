@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="head">
+      <nav>
+        <div class="saludo">
+          <h2>
+            Hola! me llamo juan pablo y esta es una practica de HTML + CSS
+          </h2>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="#sobremi">Sobre mi</a></li>
+            <li><a href="#formularios">Contacto</a></li>
+            <li><a href="index.html">Inicio</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="sobremi" class="container-imagenes">
+        <article class="imagen">
+          <img src="https://picsum.photos/id/684/600/400" alt="001" />
+          <h2>Licenciatura en Sistemas <br /></h2>
+        </article>
+
+        <article class="imagen">
+          <img src="https://picsum.photos/id/685/600/400" alt="002" />
+          <h2>Musico <br /></h2>
+        </article>
+
+        <article class="imagen">
+          <img src="https://picsum.photos/id/686/600/400" " alt="003">
+          <h2>Programador</h2>
+        </article>
+      </section>
+
+      <section id="formularios">
+        <h1>Contacto</h1>
+        <div class="container-contacto">
+          <div class="titulo-contacto">
+            <h2>Enviame un mensaje</h2>
+          </div>
+          <div class="campos-contacto">
+            <form id="formulario" action="">
+              <div class="datos">
+                <label for="name">Nombre y Apellido</label>
+                <input id="nya" class="campos" type="text" />
+              </div>
+              <div class="datos">
+                <label for="name">Celular</label>
+                <input id="celular" class="campos" type="text" />
+              </div>
+              <div class="datos">
+                <label for="name">Email</label>
+                <input id="email" class="campos" type="email" />
+              </div>
+
+              <div class="datos">
+                <label for="name">Consulta</label>
+                <textarea
+                  name="mensaje"
+                  placeholder="Deja tu mensaje..."
+                ></textarea>
+                <br />
+                <input type="submit" value="Enviar" />
+              </div>
+            </form>
+          </div>
+          <div class="ubicacion">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58224.657804407005!2d-65.30555530000001!3d-24.20533965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941b0f4e8bd7a62f%3A0x315150e057f6e499!2sSan%20Salvador%20de%20Jujuy%2C%20Jujuy!5e0!3m2!1ses!2sar!4v1666934257172!5m2!1ses!2sar"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div>
+        Juan Pablo
+      </div>
+    </footer>
+  </body>
+</html>

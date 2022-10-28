@@ -1,0 +1,97 @@
+.head {
+  background-color: #ff884b;
+  display: flex;
+  max-width: 100%;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+a {
+  color: #fff9b0;
+  text-decoration: none;
+}
+.saludo {
+  display: flex;
+  text-align: center;
+  padding: 1px;
+  color: #fff9b0;
+}
+.menu {
+  color: #fff9b0;
+  list-style: none;
+  padding: 5px;
+  text-align: center;
+}
+
+ul li {
+  display: inline;
+  padding: 20px;
+ 
+}
+.container-imagenes {
+  padding: 7px;
+  text-align: center;
+  font-size: 14px;
+  display: flex;
+  background-color: #ffd384;
+  justify-content: space-around;
+
+  margin: 50px auto;
+  border-radius: 5px;
+}
+
+.imagen {
+  padding: 30px;
+  flex-direction: row;
+  margin-bottom: 13px;
+}
+
+img {
+  border-radius: 20px;
+   width: 300px;
+}
+
+#formularios h1{
+text-align: center;
+
+}
+.container-contacto {
+  background-color: #ff884b;
+
+display: flex;
+  padding: 50px;
+  justify-content: space-between;
+ 
+}
+
+.titulo-contacto h2{
+    text-align: center;
+ 
+    
+}
+
+.titulo-contacto{
+  display: flex;
+  text-align: left;
+}
+.campos-contacto{
+  display: flex;
+}
+#formulario .datos{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+
+  font-size: 20px;
+  line-height: 1.7;
+  border: none;
+  border-radius: 5px;
+      margin: 5px;
+    padding: 3px;
+}
+#formulario input{
+  height: 20px;
+}
+#formulario textarea{
+height: 65px;
+}
